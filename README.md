@@ -1,4 +1,4 @@
-# EasyPost Ruby Client Library
+# Fork of EasyPost Ruby Client Library to make it compatible with ruby 1.8.7
 
 [<img src="https://circleci.com/gh/EasyPost/easypost-ruby.png?circle-token=80adb5236ed1fdce20810b055af79c63c3d5796b">](https://circleci.com/gh/EasyPost/easypost-ruby)
 

@@ -5,7 +5,7 @@ module EasyPost
         values = {}
         @unsaved_values.each { |k| values[k] = @values[k] }
 
-        wrapped_params = {user: values}
+        wrapped_params = {:user => values}
 
         response, api_key = EasyPost.request(:put, url, @api_key, wrapped_params)
         refresh_from(response, api_key)

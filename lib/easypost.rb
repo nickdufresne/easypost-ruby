@@ -68,10 +68,10 @@ module EasyPost
 
   def self.http_config
     @@http_config ||= {
-      timeout: 60,
-      open_timeout: 30,
-      verify_ssl: false,
-      ssl_version: "TLSv1",
+      :timeout => 60,
+      :open_timeout => 30,
+      :verify_ssl => false,
+      :ssl_version => "TLSv1",
     }
   end
 
